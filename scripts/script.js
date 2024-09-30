@@ -240,7 +240,7 @@ $(".order-button").click(() => {
         loader.css("display", "flex");
         $.ajax({
             method: "POST",
-            url: "https://testologia.site/checkout",
+            url: "https://testologia.ru/checkout",
             data: {name: nameInput.val(), phone: phoneInput.val(), number: numberInput}
         })
             .done(function (msg) {
